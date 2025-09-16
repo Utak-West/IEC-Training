@@ -240,7 +240,7 @@ export default function Home() {
             </div>
             <div className="text-center md:text-right">
               <p className="text-gray-400 text-sm">
-                "If We Can Imagine It, Then We Can Create It."
+                &quot;If We Can Imagine It, Then We Can Create It.&quot;
               </p>
               <p className="text-gray-500 text-xs mt-1">
                 © 2025 IEC & A.M. Consulting. All rights reserved.

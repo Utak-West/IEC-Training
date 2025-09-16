@@ -98,7 +98,7 @@ export interface QuizAttempt {
   id: string
   user_id: string
   quiz_id: string
-  answers: Record<string, any>
+  answers: Record<string, Json>
   score: number
   passed: boolean
   time_taken: number
