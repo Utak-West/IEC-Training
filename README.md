@@ -1,19 +1,56 @@
 # IEC Gamified Training System
 
-A comprehensive gamified training platform for the electrical industry, developed in collaboration between the Independent Electrical Contractors (IEC) and A.M. Consulting.
+<div align="center">
+  <img src="assets/A.M.Logo2025.png" alt="A.M. Consulting Logo" width="200"/>
+  
+  **A comprehensive gamified training platform for the electrical industry**
+  
+  *Developed in collaboration between the Independent Electrical Contractors (IEC) and A.M. Consulting*
+  
+  [![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
+  [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+</div>
 
-## 🎯 Project Overview
+---
 
-This project aims to revolutionize electrical industry training through gamification, AI-driven learning, and immersive project simulations. The platform features customizable avatars, real-world project simulations, comprehensive dashboards, and tracking metrics to enhance apprentice engagement and knowledge retention.
+## 🎯 Project Vision
 
-## 🚀 Key Features
+> *"If We Can Imagine It, Then We Can Create It."* - Altagracia Montilla
 
-- **AI-Driven Learning**: Personalized learning paths adapted to individual progress and preferences
-- **Project Simulations**: Interactive scenarios replicating real-world electrical projects
-- **Gamification**: Points, badges, leaderboards, and achievement systems
-- **Avatar Customization**: Personalized avatars with unlockable customization options
-- **Progress Tracking**: Comprehensive dashboards for apprentices, instructors, and administrators
-- **HigherSelf Network Integration**: Leveraging enterprise-grade automation framework
+This project aims to revolutionize electrical industry training through gamification, artificial intelligence, and immersive project simulations. The platform features customizable avatars, real-world project simulations, comprehensive dashboards, and tracking metrics to enhance apprentice engagement and knowledge retention.
+
+## 🚀 Key Innovations
+
+<table>
+<tr>
+<td width="50%">
+
+### 🧠 AI-Driven Learning
+Personalized learning paths adapted to individual progress and preferences using advanced AI algorithms.
+
+### 🎮 Gamification Engine
+Points, badges, leaderboards, and achievement systems that create intrinsic motivation for continued learning.
+
+</td>
+<td width="50%">
+
+### 🔧 Project Simulations
+Interactive scenarios replicating real-world electrical projects with safe practice environments.
+
+### 📊 Progress Tracking
+Comprehensive dashboards providing detailed insights for apprentices, instructors, and administrators.
+
+</td>
+</tr>
+</table>
+
+### 🎨 Avatar Customization
+Personalized avatars with unlockable customization options reflecting professional growth and achievements.
+
+### 🌐 HigherSelf Network Integration
+Leveraging enterprise-grade automation framework for robust user management and data integration.
 
 ## 📁 Repository Structure
 
@@ -76,16 +113,31 @@ iec-gamified-training-system/
 
 ## 🎨 Brand Integration
 
-The platform incorporates official branding from both organizations:
+<div align="center">
+  <img src="assets/am-consulting-colors.png" alt="A.M. Consulting Color Palette" width="400"/>
+</div>
 
-### IEC Colors
+The platform incorporates official branding from both organizations to create a cohesive visual identity:
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+**🔵 IEC Colors**
 - Navy Blue: `#212b5e`
 - Rust Red: `#ed2c28`
 
-### A.M. Consulting Colors
+</td>
+<td width="50%" align="center">
+
+**🟢 A.M. Consulting Colors**
 - Deep Teal: `#2a7d8c`
 - Terra Cotta: `#d8765c`
 - Warm Cream: `#f5f0eb`
+
+</td>
+</tr>
+</table>
 
 ## 📈 Success Metrics
 
@@ -118,23 +170,63 @@ Comprehensive project documentation is available in the `/docs` folder:
 - [Technical Specifications](docs/technical-specifications.md)
 - [Brand Guidelines](docs/brand-guidelines.md)
 
-## 🤝 Collaboration
+## 🤝 Collaboration & Contact
 
-### Key Stakeholders
-- **IEC**: Industry expertise and chapter network
-- **A.M. Consulting**: Human transformation and training innovation
-- **HigherSelf Network**: Technical framework and automation
+<table>
+<tr>
+<td width="33%" align="center">
 
-### Development Partners
+### 🏢 IEC
+**Independent Electrical Contractors**
+
+📧 info@ieci.org  
+📞 (703) 549-7351  
+🌐 [ieci.org](https://ieci.org)
+
+*Industry expertise and chapter network*
+
+</td>
+<td width="33%" align="center">
+
+### ☀️ A.M. Consulting
+**Human Transformation & Innovation**
+
+📧 contact@altagraciamontilla.com  
+🌐 [altagraciamontilla.com](https://altagraciamontilla.com)
+
+*Training innovation and Conflict Bravery™*
+
+</td>
+<td width="33%" align="center">
+
+### 🔗 HigherSelf Network
+**Technical Framework & Automation**
+
+🔧 [GitHub Repository](https://github.com/Utak-West/The-HigherSelf-Network-Server)
+
+*Enterprise-grade automation platform*
+
+</td>
+</tr>
+</table>
+
+### 🚀 Development Partners
 - **GenSpark**: Project refinement and stakeholder presentation
 - **Technical Team**: Platform development and implementation
 
-## 📞 Contact
+---
 
-For questions about this project, please contact:
+<div align="center">
+  
+**🎯 Ready to Transform Electrical Training?**
 
-- **IEC**: info@ieci.org | (703) 549-7351
-- **A.M. Consulting**: contact@altagraciamontilla.com
+*Join us in revolutionizing how the electrical industry trains its workforce.*
+
+[![View Live Demo](https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge)](https://iec-gamified-training-system.vercel.app)
+[![Documentation](https://img.shields.io/badge/Read-Documentation-green?style=for-the-badge)](docs/)
+[![Contact Us](https://img.shields.io/badge/Contact-Us-orange?style=for-the-badge)](mailto:contact@altagraciamontilla.com)
+
+</div>
 
 ## 📄 License
 
