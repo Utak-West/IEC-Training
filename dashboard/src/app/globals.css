@@ -3,11 +3,56 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* IEC Brand Colors */
+  --iec-navy: #212b5e;
+  --iec-rust: #ed2c28;
+
+  /* A.M. Consulting Brand Colors */
+  --am-teal: #2a7d8c;
+  --am-terra-cotta: #d8765c;
+  --am-cream: #f5f0eb;
+
+  /* Semantic Colors */
+  --primary: var(--iec-navy);
+  --primary-foreground: #ffffff;
+  --secondary: var(--am-teal);
+  --secondary-foreground: #ffffff;
+  --accent: var(--iec-rust);
+  --accent-foreground: #ffffff;
+  --muted: var(--am-cream);
+  --muted-foreground: #6b7280;
+
+  /* Status Colors */
+  --success: #10b981;
+  --success-foreground: #ffffff;
+  --warning: #f59e0b;
+  --warning-foreground: #ffffff;
+  --error: var(--iec-rust);
+  --error-foreground: #ffffff;
+
+  /* UI Colors */
+  --border: #e5e7eb;
+  --input: #ffffff;
+  --ring: var(--iec-navy);
+  --radius: 0.5rem;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --color-border: var(--border);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -16,11 +61,66 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --border: #374151;
+    --muted: #1f2937;
+    --muted-foreground: #9ca3af;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted-foreground);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Animation utilities */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s ease-out;
+}
+
+.animate-pulse-slow {
+  animation: pulse 2s infinite;
 }
